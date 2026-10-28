@@ -1,0 +1,61 @@
+CAPSTONE 11 — VIVA QUESTIONS AND SIMPLE ANSWERS
+
+1. What is the title of your project?
+   AI-Based Renewable Energy Source Selection Assistant.
+
+2. What is the aim?
+   To build an educational ML prototype that compares solar and wind suitability from weather inputs.
+
+3. Why is this project useful?
+   It demonstrates how data and machine learning can support an initial renewable-energy assessment.
+
+4. Which programming language is used?
+   Python.
+
+5. Which libraries are used?
+   Pandas, NumPy, Scikit-learn, Matplotlib, Joblib, and Streamlit.
+
+6. What are the input features?
+   Solar irradiance, wind speed, temperature, humidity, cloud cover, hour, and month.
+
+7. What is the target output?
+   Solar, Wind, Both, or Low Potential.
+
+8. Which models are compared?
+   Decision Tree and Random Forest, along with a simple most-frequent baseline.
+
+9. What is a Decision Tree?
+   A machine-learning model that makes decisions using feature-based rules arranged like a tree.
+
+10. What is Random Forest?
+    An ensemble model that combines predictions from many decision trees.
+
+11. Why split the dataset?
+    To train on one part and evaluate performance on unseen test data.
+
+12. What is accuracy?
+    The proportion of predictions that are correct.
+
+13. What is F1-score?
+    A metric that combines precision and recall. Weighted F1 accounts for class sizes.
+
+14. Is the dataset real?
+    No. It is clearly labelled simulated educational data.
+
+15. Can the output be used to install a real solar or wind farm directly?
+    No. It is not a substitute for measured data or a professional feasibility study.
+
+16. What is preprocessing?
+    Preparing data for a model, including handling missing values and scaling features.
+
+17. What is EDA?
+    Exploratory Data Analysis; examining data using summaries and graphs.
+
+18. What is the dashboard used for?
+    It allows users to enter site conditions and view a predicted category and graphs.
+
+19. What are the limitations?
+    Simulated data, simplified assumptions, and no full cost, terrain, grid, or engineering analysis.
+
+20. What is future scope?
+    Use verified public datasets, predict actual kWh generation, and validate across real locations.
