@@ -1,0 +1,8 @@
+SIMULATION METHODOLOGY
+- Rows: 1,800 generated with NumPy random generator seed 42.
+- Solar irradiance: clipped normal distribution, 20–1100 W/m².
+- Wind speed: clipped Weibull-distributed values, 0.2–25 m/s.
+- Temperature, humidity, cloud cover, hour, and month are simulated.
+- Solar and wind potential indices are simplified illustrative formulas.
+- Labels are generated from those indices using simple thresholds and margins.
+- This is not measured weather data, validated energy generation, or a site feasibility model.

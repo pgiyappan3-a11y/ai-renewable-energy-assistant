@@ -1,0 +1,4 @@
+model,accuracy,weighted_f1
+Decision Tree,0.9056,0.9071
+Random Forest,0.9361,0.9359
+Most-frequent baseline,0.5583,0.4001
